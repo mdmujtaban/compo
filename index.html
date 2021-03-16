@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg">
+				<h1>ACCORDION</h1>
+				<div class="accordion" id="accordiforx1">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headfor">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collfor" aria-expanded="true" aria-controls="collfor">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collfor" class="accordion-collapse collapse" aria-labelledby="headfor" data-bs-parent="#accordiforx1">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headAll">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collAll" aria-expanded="false" aria-controls="collAll">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collAll" class="accordion-collapse collapse show" aria-labelledby="headAll" data-bs-parent="#accordiforx1">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headloute">
+      <button class="accordion-button collapsed" type="button"data-bs-toggle="collapse" data-bs-target="#collloute" aria-expanded="false" aria-controls="collloute">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collloute" class="accordion-collapse collapse" aria-labelledby="headloute" data-bs-parent="#accordiforx1">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+	</div>
+	</div>
+</div>
+</div>
+<div class="container">
+		<div class="row">
+			<div class="col-lg">
+<h2>Alert and close</h2>
+<div class="alert alert-custome" role="alert">
+  A simple info alert with <a href="#" class="alert-link link">an example link</a>. Give it a click if you like.
+  <button type="button" class="btn-close close" aria-label="Close"></button>
+	</div>
+	</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+<h2>Badges</h2>
+<button type="button" class="btn btn-custome">
+  Friend Request <span class="badge bg-custome">206</span>
+</button>
+</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+<h2>Breadcrumb</h2>
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item" aria-current="page">Library</li>
+     <li class="breadcrumb-item active" aria-current="page">settings</li>
+  </ol>
+</nav>
+</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+<h2>Button</h2>
+<a class="btn btn-primary" href="#" role="button">Link</a>
+<button class="btn btn-success" type="submit">Button</button>
+<input class="btn btn-danger" type="button" value="Input">
+<input class="btn btn-info" type="submit" value="Submit">
+<input class="btn btn-dark" type="reset" value="Reset">
+</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+<h2>Button Group</h2>
+	<div class="btn-group">
+  <a href="#" class="btn btn-primary" aria-current="page">Active link</a>
+  <a href="#" class="btn btn-primary active">Link</a>
+  <a href="#" class="btn btn-danger">refer</a>
+  <a href="#" class="btn btn-danger active">source</a>
+	</div>
+	</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+<h2>Card</h2>
+	<div class="card" style="width: 18rem;">
+  <img src="image/for.jpg" class="card-img-top" alt="bro">
+  <div class="card-body">
+    <h5 class="card-title">Director</h5>
+    <p class="card-text">Hexa And Thunk Limited</p>
+    <a href="#" class="btn btn-success">Visit My Profile</a>
+  </div>
+	</div>
+	</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+<h2>Carousel</h2>
+<div id="carexco" class="carousel slide" data-bs-ride="carousel">
+
+<div id="carexin" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carexin" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carexin" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carexin" data-bs-slide-to="2" aria-label="Slide 3"></button>
+ 	</div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/tree.jpg" class="d-block w-100" alt="2"><div class="carousel-caption d-nfor d-md-block">
+        <h5>S S B 326</h5>
+        <p>FULL STACK WEB DEVELOPMENT</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/road.jpg" class="d-block w-100" alt="3"><div class="carousel-caption d-nfor d-md-block">
+        <h5>S S B 326</h5>
+        <p>FULL STACK WEB DEVELOPMENT</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/nature.jpg" class="d-block w-100" alt="4"><div class="carousel-caption d-nfor d-md-block">
+        <h5>S S B 326</h5>
+        <p>FULL STACK WEB DEVELOPMENT</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carexco"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carexco"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+	</div>
+	</div>
+	</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+<h2>Collapse</h2>
+<p>
+  <a class="btn btn-danger" data-bs-toggle="collapse" href="#coex1" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#coex2" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-bs-target
+  </button>
+</p>
+	<div class="collapse" id="coex1">
+  <div class="card card-body">
+    Some placeholder content for the collapse compfornt. This panel is hidden by default but revealed when the user activates the relevant trigger.
+  </div>
+	</div>
+	<div class="collapse" id="coex2">
+  <div class="card card-body">
+    Some placeholder content for the collapse compfornt.
+  </div>
+	</div>
+</div>
+</div>
+</div>
+<div class="container">
+		<div class="row">
+			<div class="col-lg">
+	<h2>Dropdown</h2>
+	<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdomeli" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdomeli">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+</div>
+			</div>
+			</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg">
+			<h2>List Group</h2>
+			<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+    The current link item
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+  <a href="#" class="list-group-item reff list-group-item-action">A third link item</a>
+  <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+  <a href="#" class="list-group-item reff list-group-item-action active" tabindex="-1" aria-current="true">A disabled link item</a>
+</div>		
+	</div>
+			</div>
+			</div>
+		<div class="container">
+		<div class="row">
+			<div class="col-lg">
+			<h2>Modal</h2>
+			<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exmo">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exmo" tabindex="-1" aria-labelledby="exmoLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exmoLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        YO GENTLEMEN
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-custome1" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-custome2">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+			<h2>Navs and Tabs</h2>
+			<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">PICK</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">AND</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">UP</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#" tabindex="-1" aria-current="true">Disabled</a>
+  </li>
+</ul>
+</div>
+			</div>
+			</div>	
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+				<h2>Pagination</h2>
+				<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+				<h2>Progress</h2>
+				<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">ger</div>
+  <div class="progress-bar bg-success" role="progressbar" style="width: 35%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">arg</div>
+  <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">brasil</div>
+  <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">eng</div>
+</div>
+</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+				<h2>Scrollspy</h2>
+				<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#lol">@lol</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#kol">@kol</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="#for">for</a></li>
+        <li><a class="dropdown-item" href="#All">All</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#loute">loute</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+  <h4 id="lol">@lol</h4>
+  <p>It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the accordion-body, though the transition does limit overflow.</p>
+  <h4 id="kol">@kol</h4>
+  <p>It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.</p>
+  <h4 id="for">for</h4>
+  <p>It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the accordion-body, though the transition does limit overflow.</p>
+  <h4 id="All">All</h4>
+  <p>It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the.accordion-body, though the transition does limit overflow.</p>
+  <h4 id="loute">loute</h4>
+  <p>It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the accordion-body, though the transition does limit overflow.</p>
+</div>
+</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+				<h2>Spinners</h2>
+				<div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+</div>
+			</div>
+			</div>
+			<div class="container">
+		<div class="row">
+			<div class="col-lg">
+				<h2>Toasts</h2>
+				<button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+  <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
+</div>
+</div>
+			</div>
+			</div>
+
+
+<!-- js codeing start -->
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
